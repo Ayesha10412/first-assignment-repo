@@ -11,11 +11,45 @@ body{
 }
 
 /* banner-section  */
+.banner-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* margin-bottom: 48px; */
+
+}
+.banner-header h4{
+    margin-left: 150px;
+    width:128px;
+    height:33px;
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: ExtraBold;
+    color:#0D1321;
+    
+}
+.banner-header button{
+    margin-right: 150px;
+    width:244px;
+    height:57px;
+    border-radius: 7px;
+}
+    .banner-header span{
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: SemiBold;
+    color:#0D1321;
+    
+}
+
+
+
 .banner-section{
 width:1440px;
 height:652px;
 margin:0 auto;
-margin-top: 131px;
+margin-top: 60px;
 background-image: url("../assets/Hero-bg.png");
 display:flex;
 flex-direction: column;
@@ -53,16 +87,25 @@ align-items: center;
     width:852px;
     height:52px;
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 11.5px;
     font-weight: Regular;
     color:rgba(13, 19, 33, 0.714);
     margin-bottom: 32px;
 }
+.banner-description span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 .first-btn{
     width:244px;
     height:65px;
     background-color: #0D1321;
     border-radius: 7px;
+    cursor: pointer;
 }
 .first-btn span{
     width:196px;
@@ -113,10 +156,16 @@ margin-bottom: 48px;
 
 .dev-title-section p{
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 11.5px;
     font-weight:Regular;
     color:rgba(13, 19, 33, 0.714);
     margin-top: 24px;
+}
+.dev-title-section p span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .dev-content{
     width:946px;
@@ -163,11 +212,12 @@ align-items: center;
     height:52px;
     margin-top: 16px;
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 11.5px;
     font-weight:Regular;
     color:rgba(13, 19, 33, 0.714);
 
 }
+
 
 .first-part button{
     width:171px;
@@ -222,9 +272,9 @@ height:240px;
 .second-part p{
     width:468px;
     height:52px;
-    margin-top: 16px;
+    margin-top: 11.5px;
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 11.5px;
     font-weight:Regular;
     color:rgba(13, 19, 33, 0.714);
 
@@ -275,13 +325,15 @@ height:240px;
 .third-part p{
     width:468px;
     height:52px;
-    margin-top: 16px;
+    margin-top: 11.5px;
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 11.5px;
     font-weight:Regular;
     color:rgba(13, 19, 33, 0.714);
 
 }
+
+
 .third-part button{
     width:149px;
     height:48px;
