@@ -342,7 +342,7 @@ height:240px;
 .video-container{
 width:1140px;
 height:614px;
-/* border:2px solid black; */
+/* border:2px solid black;  */
 border-radius: 7px;
 border:1px solid rgba(128, 128, 128, 0.84); 
 
@@ -356,6 +356,120 @@ border:1px solid rgba(128, 128, 128, 0.84);
     border-radius: 16px;
     
 }
+/* language container section start from here */
 
+.language-section{
+    width:1140px;
+    height:460px;
+    margin-top: 151px;
+    /* border:2px solid red; */
+    margin:150px;
+   
+}
+.language-section-content{
+    width:946px;
+    height:113px;
+    /* border:2px solid blue; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:97px;
+    margin-right:97px;
+}
+
+.language-section-content h4{
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight:ExtraBold;
+    color:#0D1321;
+    margin-bottom: 24px;
+}
+
+.language-section-content p{
+    width:852px;
+    height:52px;
+    font-family: Azeret Mono;
+    font-size: 11.5px;
+    font-weight:Regular;
+    color:rgba(13, 19, 33, 0.714);
+    margin-bottom: 24px;
+}
+.language-section-content p span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.language-content{
+    width:1140px;
+    height:299px;
+    /* border:2px solid green; */
+    margin-top: 48px;
+    display:flex;
+    flex-direction: row;
+    gap:24px;
+    
+}
+.first-content{
+    width:364px;
+    height:299px;
+    /* border:2px solid chartreuse; */
+    border-radius: 4px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.second-content{
+    width:364px;
+    height:299px;
+    /* border:2px solid chartreuse; */
+border-radius: 4px;
+background-color: rgba(0, 76, 232, 0.05);
+}
+.third-content{
+    width:364px;
+    height:299px;
+    /* border:2px solid chartreuse; */
+    border-radius: 4px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.content-des{
+    width:284px;
+    height:219px;
+    /* border:2px solid black; */
+    margin:40px;
+}
+.content-img{
+    width:56px;
+    height:56px;
+    margin-bottom: 24px;
+}
+.language-content h4{
+    width:284px;
+    height:36px;
+    font-size: 24px;
+    font-family: Azeret Mono;
+    font-weight: ExtraBold;
+    color:rgba(13, 19, 33, 1.00);
+    margin-bottom: 8px;
+
+}
+
+.language-content p{
+    width:284px;
+    height:52px;
+    font-size: 12px;
+    font-family: Azeret Mono;
+    font-weight: Regular;
+    color:rgba(13, 19, 33, 0.714);
+    margin-bottom: 24px;
+
+}
+
+.language-content a{
+    width:284px;
+    height:19px;
+    font-size: 16px;
+    font-family: Azeret Mono;
+    font-weight: Bold;
+    color:rgba(13, 19, 33, 1.00);
+}
 
 
