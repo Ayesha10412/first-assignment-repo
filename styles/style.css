@@ -364,6 +364,7 @@ border:1px solid rgba(128, 128, 128, 0.84);
     margin-top: 151px;
     /* border:2px solid red; */
     margin:150px;
+    margin-bottom: 70px;
    
 }
 .language-section-content{
@@ -472,4 +473,119 @@ background-color: rgba(0, 76, 232, 0.05);
     color:rgba(13, 19, 33, 1.00);
 }
 
+/* footer section style start here */
 
+.footer-section-content{
+    width:1140px;
+    height:313px;
+    /* border:2px solid red; */ 
+    margin-left:150px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+   background-blend-mode: overlay; 
+   background-image: url('../assets/handshake.jpg');
+   background-position: 50% 50%;
+   background-size: 1140px 313px;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-section-des{
+    width:1044px;
+    height:185px;
+margin-left: 48px;
+margin-right:48px;
+margin-top: 64px;
+margin-bottom: 64px;
+     /* border:2px solid white;  */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section-des h3{
+    font-size: 30px;
+    font-weight: Bold;
+    font-family: Azeret Mono;
+    color: #FFFFFF;
+}
+
+
+.footer-section-des p{
+    width:606px;
+    height:52px;
+    font-size: 11px;
+    font-weight: Regular;
+    font-family: Azeret Mono;
+    color: rgba(255, 255, 255, 0.348);
+    /* border:2px solid white; */
+    margin-bottom: 24px;
+
+}
+.input-type{
+    width:684px;
+    height:57px;
+    margin-left: 180px;
+    margin-right: 180px;
+    /* border:2px solid white; */
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.input-type input[type=text]{
+    width:548px;
+    height:57px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: Regular;
+    font-family: Azeret Mono;
+    color:rgba(13, 19, 33, 0.40);
+}
+.input-type input[type=Submit]{
+    width:120px;
+    height:57px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: SemiBold;
+    font-family: Azeret Mono;
+    color:#0D1321;
+}
+.last-content{
+    width:1440px;
+    height:100px;
+    margin:0 auto;
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.last-content-des{
+    width:1140px;
+    height:36px;
+    /* border:2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.last-content-des p{
+   width:456px;
+   height:23px;
+    font-size: 20px;
+    font-weight: SemiBold;
+    font-family: Azeret Mono;
+    color:0D1321;
+
+}
+.anchor img{
+    width:37.01px;
+    height:35px;
+    margin-left: 18px;
+    color:#FFFFFF;
+    
+}
